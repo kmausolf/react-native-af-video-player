@@ -68,7 +68,7 @@ class Controls extends Component {
           break
         case this.state.hideControls:
           break
-        case this.state.seconds > this.props.controlDuration:
+        case this.state.seconds > 3:
           this.hideControls()
           break
         default:
@@ -127,7 +127,8 @@ class Controls extends Component {
       currentTime,
       duration,
       theme,
-      inlineOnly
+      inlineOnly,
+      isFavorite
     } = this.props
 
     const { center, ...controlBar } = theme
@@ -138,6 +139,7 @@ class Controls extends Component {
           <TopBar
             title={title}
             logo={logo}
+            isFavorite={isFavorite}
             more={more}
             onMorePress={() => onMorePress()}
             theme={{ title: theme.title, more: theme.more }}
@@ -191,13 +193,12 @@ Controls.propTypes = {
   fullscreen: PropTypes.bool.isRequired,
   muted: PropTypes.bool.isRequired,
   more: PropTypes.bool.isRequired,
-  loading: PropTypes.bool.isRequired,
   progress: PropTypes.number.isRequired,
   currentTime: PropTypes.number.isRequired,
   duration: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
-  logo: PropTypes.string.isRequired,
-  theme: PropTypes.object.isRequired
+  theme: PropTypes.object.isRequired,
+  isFavorite: PropTypes.bool
 }
 
 export { Controls }
