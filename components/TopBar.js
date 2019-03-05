@@ -44,6 +44,7 @@ const TopBar = (props) => {
     more,
     title,
     theme,
+    isFavorite,
     onMorePress
   } = props
   return (
@@ -62,8 +63,9 @@ const TopBar = (props) => {
             style={styles.more}
             onPress={() => onMorePress()}
             paddingRight
-            iconOff="more-horiz"
-            iconOn="more-horiz"
+            isOn={isFavorite}
+            iconOff="favorite-border"
+            iconOn="favorite"
             theme={theme.more}
             size={25}
           />
@@ -75,7 +77,6 @@ const TopBar = (props) => {
 
 TopBar.propTypes = {
   title: PropTypes.string.isRequired,
-  logo: PropTypes.string.isRequired,
   more: PropTypes.bool.isRequired,
   onMorePress: PropTypes.func.isRequired,
   theme: PropTypes.object.isRequired
