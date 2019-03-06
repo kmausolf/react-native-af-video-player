@@ -1,6 +1,6 @@
 {
-  "name": "react-native-af-video-player",
-  "version": "0.2.1",
+  "name": "react-native-af-video-player-kolyde-clone",
+  "version": "0.0.1",
   "dependencies": {
     "react-native-keep-awake": "^2.0.6",
     "react-native-linear-gradient": "2.3.0",
@@ -18,7 +18,7 @@
     "react-test-renderer": "16.0.0-beta.5"
   },
   "description": "A customisable React Native video player for Android and IOS",
-  "homepage": "https://github.com/abbasfreestyle/react-native-af-video-player#readme",
+  "homepage": "https://github.com/kmausolf/react-native-af-video-player-kolyde-clone#readme",
   "keywords": [
     "react-component",
     "react-native",
@@ -30,14 +30,18 @@
   ],
   "maintainers": [
     {
-      "name": "abbasfreestyle",
-      "email": "abbasfreestyle@gmail.com"
+      "name": "Ryeker Herndon",
+      "email": "rherndon@shift3tech.com"
+    },
+    {
+      "name": "Kendrick Mausolf",
+      "email": "kmausolf@shift3tech.com"
     }
   ],
   "license": "MIT",
   "author": {
-    "name": "Abbas Farid",
-    "email": "abbasfreestyle@gmail.com",
-    "url": "https://github.com/abbasfreestyle"
+    "name": "Ryeker Herndon",
+    "email": "rherndon@shift3tech.com",
+    "url": "https://github.com/ryekerjh"
   }
 }

@@ -1,4 +1,4 @@
-# react-native-af-video-player
+# react-native-af-video-player-kolyde-clone
 
 [![npm version](http://img.shields.io/npm/v/react-native-af-video-player.svg?style=flat-square)](https://npmjs.org/package/react-native-af-video-player "View this project on npm")
 [![npm downloads](http://img.shields.io/npm/dm/react-native-af-video-player.svg?style=flat-square)](https://npmjs.org/package/react-native-af-video-player "View this project on npm")
@@ -7,8 +7,6 @@
 [![npm](https://img.shields.io/npm/dt/react-native-af-video-player.svg?style=flat-square)](https://npmjs.org/package/react-native-af-video-player "View this project on npm")
 
 A customisable React Native video player for Android and IOS
-
-![Demo](https://github.com/abbasfreestyle/react-native-af-video-player/blob/master/demo.gif)
 
 ## Features
 
@@ -21,7 +19,7 @@ A customisable React Native video player for Android and IOS
 ## Install
 
 ```shell
-npm i -S react-native-af-video-player
+npm i -S react-native-af-video-player-kolyde-clone
 ```
 
 Then link
@@ -39,7 +37,7 @@ react-native link react-native-linear-gradient
 ```jsx
 import React from 'react'
 import { AppRegistry, StyleSheet, View } from 'react-native'
-import Video from 'react-native-af-video-player'
+import Video from 'react-native-af-video-player-kolyde-clone'
 
 const styles = StyleSheet.create({
   container: {
@@ -162,7 +160,7 @@ If you’re using react-navigation you need to manually hide the headers / tab b
 import React, { Component } from 'react'
 import { StyleSheet, View, ScrollView, Alert, Text } from 'react-native'
 
-import Video from 'react-native-af-video-player'
+import Video from 'react-native-af-video-player-kolyde-clone'
 
 const styles = StyleSheet.create({
   container: {
@@ -246,7 +244,7 @@ Also having multiple videos in a ScrollView isn't perfect, so use at your own ri
 
 ```jsx
 
-  import Video, { ScrollView, Container } from 'react-native-af-video-player'
+  import Video, { ScrollView, Container } from 'react-native-af-video-player-kolyde-clone'
 
   const styles = StyleSheet.create({
     container: {
