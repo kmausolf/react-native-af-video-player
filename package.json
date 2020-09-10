@@ -1,6 +1,6 @@
 {
   "name": "react-native-af-video-player-kolyde-clone",
-  "version": "0.0.1",
+  "version": "0.3.0",
   "dependencies": {
     "expo-keep-awake": "^8.2.1",
     "react-native-linear-gradient": "2.3.0",
